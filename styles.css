@@ -220,3 +220,40 @@
     margin-right: 10px;
     border-radius: 50%;
   }
+
+
+
+  @media  (max-width: 640px) {
+    .tecDetail-info {
+      display: flex;
+      
+    }
+    .detail {
+      margin-bottom: 30px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      line-height: 2.6rem;
+      color: white;
+      
+    }
+  
+    .tecDetail-image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 0 0 20px 20px;
+    }
+  
+    .tecDetail-image .tecDetail-info {
+      margin: 24px 24px 0 24px;
+    }
+
+    .footer-ul img{
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+  
+    
+  }
