@@ -67,6 +67,7 @@ header img {
   font-weight: bold; /*peso o ancho de la fuente */
   line-height: 2.6rem; /*dimensión entre líneas */
   color: var(--just-white);
+  margin: 8px;
 }
 
 .header-title-cotainer p {
