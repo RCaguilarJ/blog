@@ -21,6 +21,13 @@ html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
 }
+.container {
+  z-index: 1;
+}
+.page {
+  position: relative;
+  min-height: 100vh;
+}
 header {
   position: relative;
   display: flex;
@@ -253,7 +260,9 @@ main {
   align-items: center;
   justify-content: center;
   background-color: black;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 3;
 
   animation: loader 2.5s linear forwards;
